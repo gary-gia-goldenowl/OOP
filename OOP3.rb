@@ -99,15 +99,12 @@ end
 
 C1 = Cars.new("Lightning McQueen" ,"road","broke") #Create instance of Cars 
 C1.call     #Access and display vehiles attribute
-C1.stop     #Call method stop 
-C1.start		
+C1.start
+C1.stop     #Call method stop 		
 C1.moveby   #Display how vehicles move
 
 P1 = Planes.new("Boeing 777"  ,"airway","good to go")
 P1.call     #Access and display vehiles attribute
-P1.stop     #Call method stop 
-P1.start		
+P1.start     #Call method stop 
+P1.stop		
 P1.moveby   #Display how vehicles move
-
-
-
