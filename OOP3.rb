@@ -50,11 +50,11 @@ class Cars < Vehicles                                               #Create Cars
     end
     
     def start
-        "Car #{self.name} " + super
+        "Car " + super
     end
  
     def stop
-        "Car #{self.name} " +super 
+        "Car " +super 
     end
 end
 
@@ -69,11 +69,11 @@ class Planes < Vehicles                                             #Same as Car
     end
 
     def start
-        "Plane #{self.name} " + super
+        "Plane " + super
     end
  
     def stop
-        "Plane #{self.name} " +super 
+        "Plane " +super 
     end
 end
 
@@ -88,11 +88,11 @@ class Submarines < Vehicles                                          #Same as Ca
     end
 
     def start
-        "Submarine #{self.name} " + super
+        "Submarine " + super
     end
  
     def stop
-        "Submarine #{self.name} " + super 
+        "Submarine " + super 
     end
 end
 
